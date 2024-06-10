@@ -19,16 +19,24 @@
         "path": "./snippets/snippets.code-snippets"
       }
     ],
-    "languages": [{
-      "id": "sjml",
-      "aliases": ["sjml", "sjml"],
-      "extensions": [".sjml"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "sjml",
-      "scopeName": "source.sjml",
-      "path": "./syntaxes/sjml.tmLanguage.json"
-    }]
-  }
+    "languages": [
+      {
+        "id": "sjml",
+        "aliases": ["SJML", "sjml"],
+        "extensions": [".sjml"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "sjml",
+        "scopeName": "source.sjml",
+        "path": "./syntaxes/sjml.tmLanguage.json"
+      }
+    ]
+  },
+  "activationEvents": [
+    "onLanguage:sjml"
+  ],
+  "main": "./out/extension.js"
 }

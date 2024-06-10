@@ -1,65 +1,68 @@
-# sjml README
+# SJML
 
-This is the README for your extension "sjml". After writing up a brief description, we recommend including the following sections.
+![SJML Logo](./sjml_md.png)
+
+The official support extension  for the SJML programming languages
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+### Syntax Highlighting
+![SJML Code](./code.png)<br>
+Provides fully functional syntax highlighting support for SJML files, making it easier to understand, read and write code.
 
-For example if there is an image subfolder under your extension project workspace:
+### References and Documentation
+![Reference](./mdn.png)<br>
+This extension provide information and references about specific keywords, functions and methods of SJMl. The extension also provide the documentation link for the each keyword, making it easier to understand and learn SJML!
 
-\!\[feature X\]\(images/feature-x.png\)
+### Code Snippets
+![Snippets](./snippets.png)<br>
+This extensions also offers a lot of code snippets for SJML to make coding faster and to boost productivity.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+- Sometimes it might highlight the rest of the code until a certain keyword completely typed. (This could also be a missing semicolon)
+
+> [!TIP] 
+> You can help us improve this by [reporting](https://hirujaedurapola.github.io/sjml/bug) bug and issues.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
 
 ### 1.0.0
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
+- Initial release of SJML
 
 ### 1.1.0
 
-Added features X, Y, and Z.
+- Added Coding Snippets
 
+### 1.2.0
+
+- Added more snippets
+
+### 1.3.0
+
+- Added more snippets
+- Added syntax highlighting features
+
+### 1.4.0
+
+- Fixed bug: file icons disappearing while a sjml file is open.
+- Added more syntax highting support
+
+### 2.0.0 (Latest)
+
+- Stable Release
+- Minor Bug Fixes
+- Added Reference Support
+- Improved syntax highlighting
+- Added a basic template to snippets
 ---
 
-## Working with Markdown
+## Contributions
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+**If you like to contribute for both the Extension and the Language please visit our contributions page at [https://hirujaedurapola.github.io/SJML/contribute](https://hirujaedurapola.github.io/SJML/contribute)**
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+#### Made By [Hiruja Edurapola](https://hirujaedurapola.github.io/)
 
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**

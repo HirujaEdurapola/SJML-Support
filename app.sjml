@@ -1,0 +1,11 @@
+<sjml>
+
+   window: "Documentation" >> Page Title <<
+   icon: "icns.ico" >> Favicon Path <<
+   ver: 2.0.10 ; >> SJML Version <<
+
+dis: "Hello World";
+head: "Heading";
+break(2);
+
+</sjml>

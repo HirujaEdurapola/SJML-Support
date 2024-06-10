@@ -1,0 +1,34 @@
+{
+  "name": "sjml",
+  "displayName": "SJML",
+  "description": "Basic Language Support for SJML",
+  "version": "1.0.0",
+  "publisher": "Hiruja Edurapola",
+  "engines": {
+    "vscode": "^1.82.0"
+  },
+  "icon": "icon.png",
+  "categories": [
+    "Programming Languages",
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "sjml",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ],
+    "languages": [{
+      "id": "sjml",
+      "aliases": ["sjml", "sjml"],
+      "extensions": [".sjml"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "sjml",
+      "scopeName": "source.sjml",
+      "path": "./syntaxes/sjml.tmLanguage.json"
+    }]
+  }
+}

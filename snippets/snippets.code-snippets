@@ -1,0 +1,31 @@
+{
+    "SJML Intro": {
+        "prefix": "<sjml>",
+        "body":[
+            "<sjml>",
+            "</sjml>"
+        ],
+        "description": "Basic SJML Structure"
+    },
+    "Definitions":{
+        "prefix": "!def",
+        "body": [
+            "window: \"Documentation\" >> Page Title <<",
+            "icon: \"icns.ico\" >> Favicon Path <<",
+            "ver: 2.0.10 ; >> SJML Version <<"
+        ],
+        "description": "Definitions"
+    },
+    "Structure":{
+        "prefix": "!template",
+        "body": [
+            "<sjml>",
+            "",
+            "   window: \"Documentation\" >> Page Title <<",
+            "   icon: \"icns.ico\" >> Favicon Path <<",
+            "   ver: 2.0.10 ; >> SJML Version <<",
+            "",
+            "</sjml>"
+        ]
+    }
+}

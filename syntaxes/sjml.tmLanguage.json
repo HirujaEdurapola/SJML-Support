@@ -1,0 +1,91 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "sjml",
+	"patterns": [
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#numbers"
+		}
+	],
+	"repository": {
+		"comments":{
+			"name": "comment.single.line.sjml",
+			"begin": ">>",
+			"end": "<<"
+		},
+		"numbers":{
+			
+			"name": "constant.numeric.ver.sjml",
+			"begin": "ver:",
+			"end": ";"
+			
+
+	},
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.sjml",
+				"match": "\\b(if|while|for|return)\\b"
+			},
+			{
+				"name": "keyword.tag.sjml",
+				"begin": "<",
+				"end": ">"
+				
+			},
+			{
+				"name": "support.class.display.sjml",
+				"begin": "dis",
+				"end": ":"
+				
+			},
+			{
+				"name": "support.class.heading.sjml",
+				"begin": "head",
+				"end": ":"
+				
+			},
+			{
+				"name": "support.class.break.sjml",
+				"match": "break"
+				
+			},
+			{
+				"name": "keyword.control.meta.sjml",
+				"begin": "window",
+				"end": ":"
+				
+			},
+			{
+				"name": "keyword.control.meta.sjml",
+				"begin": "icon",
+				"end": ":"
+				
+			}
+			]
+		},
+	
+		"strings": {
+			
+			"name": "string.quoted.double.sjml",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.sjml",
+					"match": "\\\\."
+				}
+				
+			]
+		}
+	
+	},
+	"scopeName": "source.sjml"
+}

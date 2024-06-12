@@ -1,6 +1,15 @@
 # Changelog
 
-## [2.0.0] - Latest
+## [3.0.0] - Latest
+- Minor Bug Fixes
+- Added Auto Completion
+- Added Error Checking Features
+- Fixed Bug `!def` doesn't generate semi-colons
+
+## [2.0.1]
+- Minor Bug Fixes
+
+## [2.0.0] 
 - Stable Release
 - Minor Bug Fixes
 - Added Reference Support
@@ -25,3 +34,4 @@
 ## [1.0.0]
 - Initial release
 - Had the ability to provide a few code snippets for .sjml files
+

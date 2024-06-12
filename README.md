@@ -51,13 +51,24 @@ This extensions also offers a lot of code snippets for SJML to make coding faste
 - Fixed bug: file icons disappearing while a sjml file is open.
 - Added more syntax highting support
 
-### 2.0.0 (Latest)
+### 2.0.0 
 
 - Stable Release
 - Minor Bug Fixes
 - Added Reference Support
 - Improved syntax highlighting
 - Added a basic template to snippets
+
+### 2.0.1
+
+- Minor Bug Fixes
+
+### 3.0.0
+
+- Minor Bug Fixes
+- Added Auto Completion
+- Added Error Checking Features
+- Fixed Bug `!def` doesn't generate semi-colons
 ---
 
 ## Contributions
